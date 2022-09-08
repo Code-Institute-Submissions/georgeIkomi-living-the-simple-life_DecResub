@@ -9,3 +9,31 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* Typography */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+/* Layout */
+
+header {
+    text-align: center;
+}
+
+/* Navigation */
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-item {
+    margin: 0 1em;
+}
