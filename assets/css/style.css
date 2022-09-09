@@ -10,17 +10,37 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* Typography */
+/* ====================
+Typography
+==================== */
 
 h1,
 .subtitle {
-    margin-bottom: 20px;
+    margin: 0;
 }
 
-/* Layout */
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #137;
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #19D;
+    font-size: .75rem;
+    margin-bottom: 30px;
+}
+
+/* ====================
+Layout
+==================== */
 
 header {
     text-align: center;
+    background: #fff;
+    padding: 2em 0;
 }
 
 /* Navigation */
@@ -33,4 +53,24 @@ header {
 
 .nav-list-item {
     margin: 0 1em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #777;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #19D;
+}
+
+.current-page {
+    border-bottom: 1px solid #777;
+}
+
+.current-page:hover {
+    color: #777;
 }
