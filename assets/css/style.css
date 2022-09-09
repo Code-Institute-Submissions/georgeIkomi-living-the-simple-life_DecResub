@@ -14,11 +14,6 @@ body {
 Typography
 ==================== */
 
-h1,
-.subtitle {
-    margin: 0;
-}
-
 h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -30,15 +25,24 @@ h1 {
     font-weight: 700;
     color: #19D;
     font-size: .75rem;
-    margin-bottom: 30px;
 }
 
 /* ====================
 Layout
 ==================== */
 
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.container-align {
+    display: flex;
+    justify-content: space-between;
+}
+
 header {
-    text-align: center;
     background: #fff;
     padding: 2em 0;
 }
@@ -49,10 +53,11 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
+    padding-top: 15px;
 }
 
 .nav-list-item {
-    margin: 0 1em;
+    margin-left: 2em;
 }
 
 .nav-link {
