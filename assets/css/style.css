@@ -8,23 +8,65 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* ====================
 Typography
 ==================== */
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #137;
+}
+
+h1 {
     font-size: 2rem;
 }
 
+a {
+    color: #19d;
+}
+
+a:hover,
+a:focus {
+    color: #137;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* h1 subtitle */
 .subtitle {
     font-weight: 700;
     color: #19D;
     font-size: .75rem;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.continue-reading,
+.article-info {
+    font-size: 0.875rem;
+}
+
+.continue-reading {
+    color: #19d;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.continue-reading:hover,
+.continue-reading:focus {
+    color: #137;
+    text-decoration: underline;
 }
 
 /* ====================
