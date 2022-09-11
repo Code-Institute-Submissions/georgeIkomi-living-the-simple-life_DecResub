@@ -219,6 +219,10 @@ header {
         min-height: 250px;
         object-fit: cover;
     }
+
+    .article-image-left {
+        object-position: left;
+    }
 }
 
 
