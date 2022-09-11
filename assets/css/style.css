@@ -74,6 +74,18 @@ strong {
     text-decoration: underline;
 }
 
+.article-info {
+    margin: 2em 0;
+}
+
+.article-content {
+    margin-bottom: 1em;
+}
+
+/* .continue-reading-featured {
+    margin-bottom: 10em;
+} */
+
 /* ====================
 Layout
 ==================== */
@@ -151,6 +163,14 @@ header {
     .nav-list-item {
         margin: 0.5em 0;
     }
+}
+
+/* articles */
+
+.article-featured {
+    border-bottom: 1px solid #777;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 
