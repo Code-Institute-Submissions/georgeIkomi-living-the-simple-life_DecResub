@@ -55,6 +55,7 @@ strong {
 
 .article-title {
     font-size: 1.5rem;
+    margin-bottom: 0.8em;
 }
 
 .continue-reading,
@@ -171,6 +172,22 @@ header {
     border-bottom: 1px solid #777;
     padding-bottom: 2em;
     margin-bottom: 2em;
+}
+
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+/* switching the visual order of items */
+.article-recent-main {
+    order: 2;
+}
+
+/* switching the visual order of items */
+.article-recent-secondary {
+    order: 1;
 }
 
 
