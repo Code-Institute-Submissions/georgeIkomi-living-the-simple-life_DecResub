@@ -86,20 +86,28 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 header {
     background: #f8f8f8;
     padding: 2em 0;
+    text-align: center;
 }
 
-main {
-    width: 75%;
-}
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
 
-aside {
-    width: 20%;
+    main {
+        width: 75%;
+    }
+
+    aside {
+        width: 20%;
+    }
 }
 
 /* Navigation */
@@ -134,4 +142,18 @@ aside {
 .current-page:hover {
     color: #777;
 }
+
+@media (max-width: 675px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list-item {
+        margin: 0.5em 0;
+    }
+}
+
+
+
+
 
