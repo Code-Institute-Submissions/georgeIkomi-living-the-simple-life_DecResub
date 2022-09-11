@@ -213,6 +213,12 @@ header {
     .article-info {
         order: -1;
     }
+
+    .article-image {
+        width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    }
 }
 
 
