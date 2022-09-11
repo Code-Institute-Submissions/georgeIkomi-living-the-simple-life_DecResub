@@ -83,10 +83,6 @@ strong {
     margin-bottom: 1em;
 }
 
-/* .continue-reading-featured {
-    margin-bottom: 10em;
-} */
-
 /* ====================
 Layout
 ==================== */
@@ -107,6 +103,7 @@ header {
     background: #f8f8f8;
     padding: 2em 0;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 @media (min-width: 675px) {
@@ -189,6 +186,22 @@ header {
 .article-recent-secondary {
     order: 1;
 }
+
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .article-recent-main {
+        width: 68%;
+    }
+
+    .article-recent-secondary {
+        width: 30%;
+    }
+}
+
 
 
 
