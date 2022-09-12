@@ -96,6 +96,7 @@ strong {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 0.7em;
+    letter-spacing: 1px;
 }
 
 /* ====================
@@ -156,6 +157,7 @@ header {
     font-weight: 700;
     padding: .25em 0;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .nav-link:hover,
