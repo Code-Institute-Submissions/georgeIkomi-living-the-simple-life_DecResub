@@ -260,6 +260,15 @@ header {
     margin-bottom: 1em;
 }
 
+/* Footer */
+
+footer {
+    background: #137;
+    color: rgba(255, 255, 255, .65);
+    text-align: center;
+    padding: 3em 0;
+}
+
 
 
 
