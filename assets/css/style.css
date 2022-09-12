@@ -83,6 +83,16 @@ strong {
     margin-bottom: 1em;
 }
 
+.widget-title,
+.widget-recent-post-title {
+    font-size: 1rem;
+}
+
+.widget-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
 /* ====================
 Layout
 ==================== */
@@ -179,14 +189,12 @@ header {
     margin-bottom: 2em;
 }
 
-/* switching the visual order of items */
 .article-recent-main {
-    order: 2;
+    order: 2;  /* switching the visual order of items */
 }
 
-/* switching the visual order of items */
 .article-recent-secondary {
-    order: 1;
+    order: 1;  /* switching the visual order of items */
 }
 
 @media (min-width: 675px) {
@@ -209,11 +217,11 @@ header {
     }
 
     .article-image {
-        order: -1;
+        order: -1;  /* switching the visual order of items */
     }
 
     .article-info {
-        order: -1;
+        order: -1;  /* switching the visual order of items */
     }
 
     .article-image {
@@ -227,13 +235,33 @@ header {
     }
 }
 
-/* aside */
+/* widgets */
 
 .sidebar-widget {
     border: 20px solid #eee;
     margin-bottom: 2em;
     padding: 1em;
 }
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #777;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.widget-recent-post-title {
+    order: 2;  /* changing the order of display */
+    margin-bottom: 1em;
+}
+
+
+
 
 
 
