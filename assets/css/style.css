@@ -18,6 +18,13 @@ img {
     display: block;
 }
 
+.image-about-me {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
 /* ====================
 Typography
 ==================== */
@@ -32,6 +39,10 @@ h3 {
 
 h1 {
     font-size: 2rem;
+}
+
+h3 {
+    color: #19D;
 }
 
 a {
@@ -97,6 +108,10 @@ strong {
     text-transform: uppercase;
     margin-bottom: 0.7em;
     letter-spacing: 1px;
+}
+
+.widget-recent-post-title {
+    color: #137;
 }
 
 /* ====================
@@ -275,6 +290,14 @@ footer {
     color: rgba(255, 255, 255, .65);
     text-align: center;
     padding: 3em 0;
+}
+
+/* About me */
+
+.about-me-main-heading,
+.about-me-sub-heading,
+.about-me-paragraph {
+    margin-bottom: 0.4em;
 }
 
 
