@@ -15,4 +15,4 @@ lives in general, and will be useful to them in that they will become informed a
 subtle they can make in their lives to live a more fulfilled and happier life.
 
 
-![Snapshot of website with different views and features!](assets/images/screenshot.png "Living The Simple Life")
+<img src="assets/images/screenshot.png" width="200" height="350">
