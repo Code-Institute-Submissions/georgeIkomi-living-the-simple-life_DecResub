@@ -15,8 +15,12 @@ lives in general, and will be useful to them in that they will become informed a
 subtle they can make in their lives to live a more fulfilled and happier life.
 
 
-<img src="assets/images/screenshot1.png" width="100%" height="200px">
-<img src="assets/images/screenshot2.png" width="100%" height="200px">
-<img src="assets/images/screenshot3.png" width="100%" height="200px">
-<img src="assets/images/screenshot4.png" width="100%" height="200px">
-<img src="assets/images/screenshot5.png" width="100%" height="200px">
+<img src="assets/images/screenshot1.png" width="50%" height="200px">
+
+<img src="assets/images/screenshot2.png" width="50%" height="200px">
+
+<img src="assets/images/screenshot3.png" width="50%" height="200px">
+
+<img src="assets/images/screenshot4.png" width="50%" height="200px">
+
+<img src="assets/images/screenshot5.png" width="50%" height="200px">
