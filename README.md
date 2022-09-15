@@ -16,3 +16,32 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 
 <img src="assets/images/screenshot.png" width="100%" height="200px">
+
+## Features
+
+* Responsive on all device sizes
+* Interactive elements
+
+## Technologies Used
+
+### Languages Used
+
+* HTML5
+* CSS3
+
+### Frameworks, Libraries & Programs Used
+
+1. Google Fonts
+      - Google fonts were used to import the 'Lora' and 'Ubuntu' fonts into the style.css
+          file which is used on all pages throughout the project.
+
+2. Git
+      - Git was used for version control by utilizing the Gitpod terminal to commit to Git
+        and Push to GitHub.
+
+3. GitHub
+      - GitHub is used to store the project's code after being pushed from Git.
+
+4. Flexbox
+      - The use of Flexbox made it easier to design a flexible responsive layout structure
+        without using float or positioning.
