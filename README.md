@@ -45,3 +45,9 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 4. Flexbox
       - The use of Flexbox made it easier to design a flexible responsive layout structure
         without using float or positioning.
+
+## Features Left to Implement
+
+The link in the 'featured article' section and 'CONTINUE READING' links remain to be 
+implemented. Clicking on any of these links takes the user nowhere at this time and,
+constitute the left over parts of the project that need to be addressed.
