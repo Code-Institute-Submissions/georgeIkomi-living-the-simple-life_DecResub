@@ -33,7 +33,7 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 1. Google Fonts
       - Google fonts were used to import the 'Lora' and 'Ubuntu' fonts into the style.css
-          file which is used on all pages throughout the project.
+        file which is used on all pages throughout the project.  
 
 2. Git
       - Git was used for version control by utilizing the Gitpod terminal to commit to Git
@@ -51,3 +51,23 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 The link in the 'featured article' section and 'CONTINUE READING' links remain to be 
 implemented. Clicking on any of these links takes the user nowhere at this time and,
 constitute the left over parts of the project that need to be addressed.
+
+## Validator Testing
+
+* HTML
+    - One error/warning was returned when passing through the official [W3C validator](https://
+      validator.w3.org/). This was as a result of the use of the role="main" attribute on the semantic element 'main'. The result indicated that the use of this attribute was unnecessary, as such, this error/warning was fixed by excluding the use of this attribute with the 'main' semantic element. No errors/warning were returned when passing through the official [W3C validator](https://validator.w3.org/) after the error/warning was addressed.        
+           
+* CSS
+    - One warning was returned/found when passing through the official [(Jigsaw)validator](https:// 
+      jigsaw.w3.org/css-validator/), which indicated that imported style sheets (related to the imported style sheet for Google fonts in this case) are not checked in direct input and file upload modes. This was addressed by excluding the import statement at the beginning of style.css file in the direct input when passing through the official [(Jigsaw)validator](https://jigsaw.w3.org/css-validator/) the second time and no errors/warnings were subsequently found.
+       
+### Further Testing
+
+- The website was tested on Google Chrome, Microsoft Edge and FireFox browsers.
+- The website was viewed on a variety of devices such as Desktops, Laptop, iPhone SE,
+  iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, iPad Air, iPad
+  Mini, Galaxy Fold and Samsung Galaxy A51/71.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point 
+  out any bugs and/or user experience issues. 
