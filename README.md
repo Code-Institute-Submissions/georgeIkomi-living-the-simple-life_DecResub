@@ -70,4 +70,29 @@ constitute the left over parts of the project that need to be addressed.
   Mini, Galaxy Fold and Samsung Galaxy A51/71.
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site and documentation to point 
-  out any bugs and/or user experience issues. 
+  out any bugs and/or user experience issues.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the folowing steps...
+
+  1. In the Github repository, locate and click the "Settings" button on the menu at the 
+     top of the Repository (not top of the page).
+
+  2. Looking at the menu on the left (under the "Code & automation section), scroll down
+     until you locate "Pages" then click on it.
+
+  3. Under "Build and deployment", select "Deploy from a branch" from the drop-down menu
+     in the "Source" sub-section, and select "main" from the drop-down menu in the "Branch"
+     sub-section.
+
+  4. Click on the "Save" button. Once this is done, the page will be automatically refreshed
+     with a detailed ribbon display at the top of the page to indicate the successful deployment.
+
+The live link can be found here - 
+
+
+
+
