@@ -101,5 +101,7 @@ The live link can be found here -
 
 - Instructions on how to implement the use of Flexbox was taken from [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
+- Instructions on how to implement form validation on the Newsletter page was taken from [Specific-Scrimba-Tutorial](https://scrimba.com/learn/responsive/the-basics-of-styling-form-cN3Z7EfZ)
+
 
 
