@@ -93,6 +93,13 @@ The project was deployed to GitHub Pages using the folowing steps...
 
 The live link can be found here - 
 
+## Credits
+
+### Content & Media
+
+- All content and media was taken from specimen at [Living The Simple Life Specimen](https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid)
+
+- Instructions on how to implement the use of Flexbox was taken from [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
 
 
