@@ -59,6 +59,7 @@ strong {
 }
 
 /* h1 subtitle */
+
 .subtitle {
     font-weight: 700;
     color: #19D;
@@ -285,7 +286,9 @@ header {
     margin-bottom: 1em;
 }
 
-/* Footer */
+/* ====================
+Footer
+==================== */
 
 footer {
     background: #137;
@@ -294,13 +297,43 @@ footer {
     padding: 3em 0;
 }
 
-/* About me */
+/* ====================
+About me
+==================== */
 
 .about-me-main-heading,
 .about-me-sub-heading,
 .about-me-paragraph {
     margin-bottom: 0.4em;
 }
+
+/* ====================
+Form
+==================== */
+
+.form-newsletter {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 2em;
+}
+
+input,
+.btn {
+    border: 1px solid #000;
+    padding: .5em;
+}
+
+input {
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
 
 
 
