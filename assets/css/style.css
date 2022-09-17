@@ -312,7 +312,6 @@ Form
 ==================== */
 
 .form-newsletter {
-    /* border: 1px solid black; */
     text-align: center;
     margin-bottom: 30px;
     padding: 2em;
@@ -323,16 +322,15 @@ input,
 .btn {
     border: 1px solid #000;
     padding: .5em;
-    background: #f8f8f8
+    background: #f8f8f8;
 }
 
 input {
-    /* width: 100%; */
     margin-bottom: 1em;
 }
 
 .btn:hover {
-    background: #19D;
+    background: #777;
 }
 
 @media (max-width: 675px) {
