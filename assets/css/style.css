@@ -316,16 +316,29 @@ Form
     text-align: center;
     margin-bottom: 30px;
     padding: 2em;
+    background: #f8f8f8
 }
 
 input,
 .btn {
     border: 1px solid #000;
     padding: .5em;
+    background: #f8f8f8
 }
 
 input {
+    /* width: 100%; */
     margin-bottom: 1em;
+}
+
+.btn:hover {
+    background: #19D;
+}
+
+@media (max-width: 675px) {
+    input {
+        width: 100%
+    }
 }
 
 
