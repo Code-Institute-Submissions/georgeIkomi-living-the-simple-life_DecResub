@@ -97,11 +97,17 @@ The live link can be found here -
 
 ### Content & Media
 
-- All content and media was taken from specimen at [Living The Simple Life Specimen](https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid)
+- All content and media was taken from specimen at [Living The Simple Life Specimen](https://xd.adobe.
+  com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid)
 
-- Instructions on how to implement the use of Flexbox was taken from [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- Instructions on how to implement the use of Flexbox in structuring layout was taken from 
+  [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
-- Instructions on how to implement form validation on the Newsletter page was taken from [Specific-Scrimba-Tutorial](https://scrimba.com/learn/responsive/the-basics-of-styling-form-cN3Z7EfZ)
+- Instructions on how to implement form validation on the Newsletter page was taken from 
+  [Specific-Scrimba-Tutorial](https://scrimba.com/learn/responsive/the-basics-of-styling-form-cN3Z7EfZ)
+
+- Instructions on how to use "object-fit" to resize an image to fit its container was taken from   
+  [MDN-documentation(object-fit)](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
 
 
 
