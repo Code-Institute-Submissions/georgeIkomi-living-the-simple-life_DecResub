@@ -91,7 +91,7 @@ The project was deployed to GitHub Pages using the folowing steps...
   4. Click on the "Save" button. Once this is done, the page will be automatically refreshed
      with a detailed ribbon display at the top of the page to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - <https://georgeikomi.github.io/living-the-simple-life/>
 
 ## Credits
 
