@@ -36,21 +36,28 @@ subtle they can make in their lives to live a more fulfilled and happier life.
   - The user is able to expand and close the menu for navigation on small screen devices
     should they need to do so.
 
-![](/assets/images/hamburger-menu1_scrn-shot.png) 
+![](/assets/images/hamburger-menu1_scrn-shot.png) ![](/assets/images/hamburger-menu2_scrn-shot.png)
 
-![](/assets/images/hamburger-menu2_scrn-shot.png)
+
 
 * Header section
 
   - This feature provides the user with viewing consistency as they explore the site.
 
-![](/assets/images/hero-image1_scrn-shot.png) ![](/assets/images/hero-image2_scrn-shot.png)
+![](/assets/images/hero-image1_scrn-shot.png) 
+
+![](/assets/images/hero-image2_scrn-shot.png)
 
 
 
 * Recent posts section
 
-  - This section of the site provides the user with posts from the
+  - This section of the site provides the user with posts from the member community with ideas on how 
+    to keep up with changing trends.
+
+![](/assets/images/recent-posts1_scrn-shot.png)
+
+![](/assets/images/recent-posts2_scrn-shot.png)  ![](/assets/images/recent-posts3_scrn-shot.png)
 
 
 
