@@ -212,6 +212,100 @@ nav .fa {
     }
 }
 
+/* ------------------recent-posts section-------------------- */
+
+/* setting the width, height, and other
+   properties for this section's background image).
+*/
+.sub-header-recent {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,0,30,0.7), rgba(4,0,30,0.7)), url(../images/food.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/* setting the width and other properties for this 
+   section's layout).
+*/
+.recent-posts {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero-heading-recent {
+    margin-top: 50px;
+}
+
+.article-info,
+.article-content {
+    text-align: left;
+    padding-left: 0;
+}
+
+/* display each column of items side by side */
+.row {
+    margin-top: 5%;
+    display: flex; /* make the contents controllable by flexbox*/
+    justify-content: space-between;
+
+}
+
+/* This style rule determines the amount of
+   space each column of items will occupy in
+   the row after applying a display of flex
+   to the parent (the div with class .row).
+   This changes the direction in which the 
+   child elements (in this case the different
+   columns representing the different posts) 
+   are positioned, from each column of items 
+   stacking on top of one another, to each column
+   of items appearing side by side instead.  
+*/
+.recent-posts-col {
+    flex-basis: 31%; /* apportion space for each column of items */
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+/* sets the color of the h3 elements contained
+   within each column to the value specified  
+*/
+.recent-posts-col h3 {
+    color: #137;
+}
+
+/* sets the font weight of the paragraph elements contained
+   within each column to the value specified  
+*/
+.recent-posts-col p {
+    font-weight: 400;
+}
+
+/* This style CSS rule adds the shadow effect seen by
+   user when they hover over any of the column of items
+   in the recent-posts section.
+*/
+.recent-posts-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+/* media query */
+@media(max-width: 820px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
 .image-about-me {
     width: 100%;
     max-height: 300px;
