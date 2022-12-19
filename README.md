@@ -76,6 +76,17 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 ![](/assets/images/footer1_scrn-shot.png)  
 
 ![](/assets/images/footer2_scrn-shot.png)
+
+* Newsletter section
+
+  - This section provides the user with the opportunity to subscribe to the newsletter, where they can 
+    get involved and see what other members are saying, and keep up with issues and trends.
+
+![](/assets/images/newsletter1_scrn-shot.png)
+
+![](/assets/images/newsletter2_scrn-shot.png)
+                      
+                      
                     
 
 
