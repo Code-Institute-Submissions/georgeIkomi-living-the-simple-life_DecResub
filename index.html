@@ -13,34 +13,36 @@
 </head>
 
 <body>
-    <header>
-        <div class="container container-flex">
-            <div class="site-title">
-                <h1>Living the simple life</h1>
-                <p class="subtitle">A blog exploring minimalism in life</p>
-            </div>
+    <!-- header section -->
 
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                        <a class="nav-link current-page" href="index.html">Home</a>
-                    </li>
+    <section class="header">
+        <nav>
+            <header>
+                <a href="index.html" class="logo">Living the simple life</a>
+            </header>
 
-                    <li class="nav-list-item">
-                        <a class="nav-link" href="about-me.html">About me</a>
-                    </li>
-
-                    <li class="nav-list-item">
-                        <a class="nav-link" href="recent-posts.html">Recent posts</a>
-                    </li>
-
-                    <li class="nav-list-item">
-                        <a class="nav-link" href="news-letter.html">Newsletter</a>
-                    </li>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a href="recent-posts.html">Recent posts</a></li>
+                    <li><a href="news-letter.html">Newsletter</a></li>
                 </ul>
-            </nav>
-        </div> <!-- / .container -->
-    </header>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class=" text-box">
+            <h1>Finding Simplicity In Life</h1>
+            <p>Why make our lives more complicated than it perhaps already is
+                when it doesn't have to be that way! We can avail of a variety<br>
+                of options to simplify our lives. This week, we explore those in our
+                quest to seek simplicity in our daily lives.
+            </p>
+            <a href="index.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
 
     <div class="container container-flex">
         <main>
