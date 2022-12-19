@@ -420,6 +420,67 @@ nav .fa {
     padding: 18px 0;
 }
 
+/* ------------------about-me section-------------------- */
+
+/* setting the width, height, and other
+   properties for this section's background
+   image.
+*/
+.sub-header-about {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,0,30,0.7), rgba(4,0,30,0.7)), url(../images/about-me.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/* setting the width and padding properties
+   for this section's layout
+*/
+.about-me {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.hero-heading-about {
+    margin-top: 50px;
+}
+
+.about-me-col {
+    flex-basis: 48%; /* apportion space for each column of item(s) */
+    padding: 30px 2px;
+}
+
+.about-me-col img {
+    width: 100%;
+}
+
+.about-me-col h1 {
+    padding-top: 0;
+}
+
+.about-me-col h3 {
+    color: #19D;
+    font-weight: 500;
+}
+
+.about-me-col p {
+    padding: 15px 0 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* media query*/
+@media(max-width: 820px) {
+    .sub-header .hero-heading {
+        margin-top: 70px;
+    }
+}
+
 .image-about-me {
     width: 100%;
     max-height: 300px;
