@@ -15,8 +15,13 @@ lives in general, and will be useful to them in that they will become informed a
 subtle they can make in their lives to live a more fulfilled and happier life.
 
 
-<img src="assets/images/screenshot.png" width="100%" height="200px">
+![](/assets/images/hero-image-for-home-screen.png)
 
+![](/assets/images/recen-posts-section-image.png)
+
+![](/assets/images/testimonial-section-image.png)
+
+![](/assets/images/about_and_call-to-action-image.png)
 # Features
 
 ## Existing Features
