@@ -59,6 +59,16 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 ![](/assets/images/recent-posts2_scrn-shot.png)  ![](/assets/images/recent-posts3_scrn-shot.png)
 
+* About me section
+
+  - This section gives a very brief introduction about the creator of the "Live a simple life" ideology
+    and how he turned things around in his personal life with this idea.
+
+![](/assets/images/about-me1_scrn-shot.png)
+
+![](/assets/images/about-me2_scrn-shot.png)   ![](/assets/images/about-me3.png)
+                    
+
 
 
 * Responsive on all device sizes
