@@ -305,6 +305,61 @@ nav .fa {
     }
 }
 
+/* ------------------testimonials section-------------------- */
+
+/* setting the width, height, and other
+   properties for this section's layout.
+*/
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* display each column of items side by side 
+   and sets other properties for styling each
+   column.
+*/
+.testimonial-col {
+    display: flex; /* make the contents controllable by flexbox*/
+    flex-basis: 44%; /* apportion space for each column of items */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-col p {
+    padding: 0;
+    font-weight: 400;
+}
+
+.testimonial-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonial-col .fa {
+    color: #f44336;
+}
+
+/* media query */
+@media(max-width: 820px) {
+    .testimonial-col img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
 
 .image-about-me {
     width: 100%;
