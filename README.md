@@ -17,7 +17,16 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 <img src="assets/images/screenshot.png" width="100%" height="200px">
 
-## Features
+# Features
+
+## Existing Features
+
+* Navigation bar
+
+  - This feature will forster an easy way for the user to navigate the site and improve   
+    the user experience.
+
+![](/assets/images/navigation_scrn-shot.png)
 
 * Responsive on all device sizes
 * Interactive elements
