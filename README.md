@@ -36,9 +36,11 @@ subtle they can make in their lives to live a more fulfilled and happier life.
   - The user is able to expand and close the menu for navigation on small screen devices
     should they need to do so.
 
-![](/assets/images/hamburger-menu1_scrn-shot.png)
+![](/assets/images/hamburger-menu1_scrn-shot.png) 
 
 ![](/assets/images/hamburger-menu2_scrn-shot.png)
+
+
 
 * Responsive on all device sizes
 * Interactive elements
