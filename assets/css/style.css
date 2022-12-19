@@ -361,6 +361,41 @@ nav .fa {
     }
 }
 
+/* ------------------call-to-action section-------------------- */
+
+/* setting the width, height, and other
+   properties for this section's background image.
+*/
+.cta {
+    width: 80%;
+    min-height: 30vh;
+    margin: 100px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/life.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: #fff;
+    margin: 100px auto 40px;
+    padding: 0;
+}
+
+.cta a {
+    text-transform: uppercase;
+}
+
+/* media query */
+@media(max-width: 820px) {
+    .cta h1 {
+        font-size: 24px;
+        padding: 0 20px;
+    }
+}
+
 .image-about-me {
     width: 100%;
     max-height: 300px;
