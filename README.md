@@ -44,9 +44,13 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
   - This feature provides the user with viewing consistency as they explore the site.
 
-![](/assets/images/hero-image1_scrn-shot.png)
+![](/assets/images/hero-image1_scrn-shot.png) ![](/assets/images/hero-image2_scrn-shot.png)
 
-![](/assets/images/hero-image2_scrn-shot.png)
+
+
+* Recent posts section
+
+  - This section of the site provides the user with posts from the
 
 
 
