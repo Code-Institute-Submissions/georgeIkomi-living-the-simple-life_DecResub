@@ -40,6 +40,14 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 ![](/assets/images/hamburger-menu2_scrn-shot.png)
 
+* Header section
+
+  - This feature provides the user with viewing consistency as they explore the site.
+
+![](/assets/images/hero-image1_scrn-shot.png)
+
+![](/assets/images/hero-image2_scrn-shot.png)
+
 
 
 * Responsive on all device sizes
