@@ -67,6 +67,15 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 ![](/assets/images/about-me1_scrn-shot.png)
 
 ![](/assets/images/about-me2_scrn-shot.png)   ![](/assets/images/about-me3.png)
+
+* Footer section
+
+  - This section includes a number of social media platforms through which the creator can be 
+    contacted or communicated with. 
+
+![](/assets/images/footer1_scrn-shot.png)  
+
+![](/assets/images/footer2_scrn-shot.png)
                     
 
 
