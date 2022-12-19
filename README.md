@@ -143,39 +143,15 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
   * This was addressed by adjusting the max-width for all media queiries such that it causes the hamburger menu feature to kick in, and the navigation links are hiden rather than breaking into the second line as indicated in the second screenshot above.
 
-
-
- 
-    
-    
-    
-    
-
-
- 
- 
-
-
 ## Validator Testing
 
 * HTML
-    - One error/warning was returned when passing through the official [W3C validator](https://
-      validator.w3.org/). This was as a result of the use of the role="main" attribute on the semantic element 'main'. The result indicated that the use of this attribute was unnecessary, as such, this error/warning was fixed by excluding the use of this attribute with the 'main' semantic element. No errors/warning were returned when passing through the official [W3C validator](https://validator.w3.org/) after the error/warning was addressed.        
+    - No errors/warning were returned when passing all 4 html files through the official [W3C 
+      validator](https://validator.w3.org/).        
            
 * CSS
-    - One warning was returned/found when passing through the official [(Jigsaw)validator](https:// 
-      jigsaw.w3.org/css-validator/), which indicated that imported style sheets (related to the imported style sheet for Google fonts in this case) are not checked in direct input and file upload modes. This was addressed by excluding the import statement at the beginning of style.css file in the direct input when passing through the official [(Jigsaw)validator](https://jigsaw.w3.org/css-validator/) the second time and no errors/warnings were subsequently found.
+    - No errors/warnings were returned when passing the style.css file through the official [(Jigsaw)validator](https://jigsaw.w3.org/css-validator/).
        
-### Further Testing
-
-- The website was tested on Google Chrome, Microsoft Edge and FireFox browsers.
-- The website was viewed on a variety of devices such as Desktops, Laptop, iPhone SE,
-  iPhone XR, iPhone 12 Pro, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra, iPad Air, iPad
-  Mini, Galaxy Fold and Samsung Galaxy A51/71.
-- A large amount of testing was done to ensure that all pages were linking correctly.
-- Friends and family members were asked to review the site and documentation to point 
-  out any bugs and/or user experience issues.
-
 ## Deployment
 
 ### GitHub Pages
@@ -197,21 +173,23 @@ The project was deployed to GitHub Pages using the folowing steps...
 
 The live link can be found here - <https://georgeikomi.github.io/living-the-simple-life/>
 
-## Credits
+# Credits
 
-### Content & Media
+  * Instructions on how to implement the use of Flexbox in structuring layout was taken from
+    [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
-- All content and media was taken from specimen at [Living The Simple Life Specimen](https://xd.adobe.
-  com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid)
+  * Instructions on how to implement form validation on the Newsletter page was taken from
+    [Specific-Scrimba-Tutorial](https://scrimba.com/learn/responsive/the-basics-of-styling-form-cN3Z7EfZ)
 
-- Instructions on how to implement the use of Flexbox in structuring layout was taken from 
-  [MDN-documentation(Flexbox)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+  * Instructions on how to implement the use box-shadow css property was taken from
+    [MDN-documentation(box-shadow)](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
-- Instructions on how to implement form validation on the Newsletter page was taken from 
-  [Specific-Scrimba-Tutorial](https://scrimba.com/learn/responsive/the-basics-of-styling-form-cN3Z7EfZ)
+  * Instructions on how to implement toggle bar menu was taken from HTML & CSS (design and build 
+    websites) Chapter 10: Introducing CSS, pg226-251, by John Duckett.
 
-- Instructions on how to use "object-fit" to resize an image to fit its container was taken from   
-  [MDN-documentation(object-fit)](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+  * Further Instructions on how to handle the process and design was taken from HTML & CSS (design and build websites) Chapter 18: Process & design, pg452-471, by John Duckett. 
+
+
 
 
 
