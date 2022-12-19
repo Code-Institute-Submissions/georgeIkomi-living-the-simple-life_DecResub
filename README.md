@@ -86,15 +86,6 @@ subtle they can make in their lives to live a more fulfilled and happier life.
 
 ![](/assets/images/newsletter2_scrn-shot.png)
                       
-                      
-                    
-
-
-
-* Responsive on all device sizes
-* Interactive elements
-
-
 ## Technologies Used
 
 ### Languages Used
@@ -119,11 +110,51 @@ subtle they can make in their lives to live a more fulfilled and happier life.
       - The use of Flexbox made it easier to design a flexible responsive layout structure
         without using float or positioning.
 
-## Features Left to Implement
+# Testing
 
-The link in the 'featured article' section and 'CONTINUE READING' links remain to be 
-implemented. Clicking on any of these links takes the user nowhere at this time and,
-constitute the left over parts of the project that need to be addressed.
+  * Initial testing involed making sure the html file runs as expected. Some text was added to the 
+    standard boilerplate HTML, saved, and run in the browser (using VScode "GoLive" extension) to see the result. The outcome of the preview was a display of the text added in the HTML file on the screen. Confirming it works.
+
+  * In order to verify the connection between the HTML and stylesheet, a css style rule was added to 
+    the style.css file to test that it functions as expected. A rule to change the background color of the html body element was added. The outcome was as expeceted (background color of the added element changing to the color specified) confirming the functioning of the stylesheet (style.css file).
+
+  * In planning the testing, a section by section aproach was adopted in developing the site. For each 
+    section, the features were developed and tested before moving to the next section. As each section is developed, each feature is implemented, saved and run.
+
+    The preview is then inspected/reviewd in the browser. Chrome Developer Tools is then used to make required changes as a result of errors in the design, display, or functionality  of the feature, and to test and preview these changes on the live site.
+
+    When inspecting/reviewing is done and we're happy with the changes, the code change is then copied from Chrome Developer Tools and inserted in the corresponding part of the code on the system actually being used to develop the site. The changes are saved and the program is run again for that final verification and confirmation that the feature looks and feels like what was intended.
+
+  * Functional testing was also carried out as unit testing was being done above. The functional 
+    testing was done to verify that any changes made as part of the process of adding new features or functionality hasn't caused any break in the overall code and functionality of other features or changes implemented prior. This part of the testing process was also done on a section by section and feature by feature basis.
+
+  * During testing, there were two main issues identified. Both in relation to the display of the site 
+    when responsive. The logo was breaking up into the second line on some small screen sizes (see below).
+
+![](/assets/images/logo-break1-scrn_shot.png)   ![](/assets/images/logo-break2-scrn_shot.png)
+
+  * This was addressed by adding a media query reducing the size of the logo on these screens. As 
+    indicated in the second diagram above, the issue was resolved.
+
+  * The second issue was in connection with the navigation links breaking into the second line on some 
+    small screen sizes, particularly on the Ipad, Ipad Pro, Ipad Mini, and Ipad Air screen sizes (see below).
+
+![](/assets/images/nav-links-break1_scrn-shot.png)   ![](/assets/images/nav-links-break2_scrn-shot.png) 
+
+  * This was addressed by adjusting the max-width for all media queiries such that it causes the hamburger menu feature to kick in, and the navigation links are hiden rather than breaking into the second line as indicated in the second screenshot above.
+
+
+
+ 
+    
+    
+    
+    
+
+
+ 
+ 
+
 
 ## Validator Testing
 
